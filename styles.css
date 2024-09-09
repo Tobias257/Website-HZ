@@ -16,17 +16,27 @@ body {
     background-color: rgb(231, 237, 255);
 }
 
-a {
+.toplink {
     background-color: rgb(95, 135, 225);
     padding: 5px;
     border-radius: 5px;
     margin-right: 20px;
 }
 
-.selected {border: 2px solid #6f42c1}
+.selected {
+    background-color: rgb(95, 135, 225);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid #3b2565
+}
 
 a:link {
-    color: #6f42c1
+    color: #3b2565
+}
+
+a:visited {
+    color: #3b2565
 }
 
 .boxed1 {
@@ -64,4 +74,34 @@ a:link {
     top: 350px;
     left: 850px;
     border: 5px solid rgb(124, 163, 255);
+}
+
+table {
+    border-radius: 5px;
+    width: 97vw;
+    border: 2px solid #3b2565;
+}
+
+th,
+td {
+    border-radius: 5px;
+    border: 2px solid #3b2565;
+    padding: 5px;
+    text-align: left;
+}
+
+.col1 {
+    width: 10vw;
+}
+
+.col2 {
+    width: 25vw;
+}
+
+.col3 {
+    width: 10vw;
+}
+
+.emptybox {
+    border: 0px
 }
