@@ -63,6 +63,13 @@ hr {
     background: linear-gradient(to bottom, rgb(124, 163, 255)60%, transparent 100%)
 }
 
+.boxed3 {
+    background-color: rgb(167, 195, 255);
+    padding: 10px;
+    width: 98%;
+    border-radius: 5px;
+}
+
 .image1 {
     position: absolute;
     top: 170px;
