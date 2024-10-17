@@ -15,11 +15,10 @@ nav {
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-body {
     background-color: rgb(231, 237, 255);
     margin-top: 95px;
+    margin-left: 50px;
+    margin-right: 50px
 }
 
 .toplink {
@@ -49,42 +48,42 @@ hr {
     color: #3b2565
 }
 
-.boxed1 {
+.boxed-article {
     background-color: rgb(167, 195, 255);
     padding: 10px;
     width: fit-content;
     border-radius: 5px;
 }
 
-.boxed2 {
+.boxed-nav {
     padding: 10px;
     width: 98, 5%;
     padding-bottom: 50px;
     background: linear-gradient(to bottom, rgb(124, 163, 255)60%, transparent 100%)
 }
 
-.boxed3 {
+.boxed-fullscreen {
     background-color: rgb(167, 195, 255);
     padding: 10px;
     width: 98%;
     border-radius: 5px;
 }
 
-.image1 {
+.image-html-acaciahof {
     position: absolute;
     top: 170px;
     left: 820px;
     border: 5px solid rgb(124, 163, 255);
 }
 
-.image2 {
+.image-css-csw {
     position: absolute;
     top: 170px;
     left: 1010px;
     border: 5px solid rgb(124, 163, 255);
 }
 
-.image3 {
+.image-hz {
     position: absolute;
     top: 350px;
     left: 850px;
@@ -93,7 +92,7 @@ hr {
 
 table {
     border-radius: 5px;
-    width: 97vw;
+    width: 90.5vw;
     border: 2px solid #3b2565;
 }
 
@@ -105,18 +104,21 @@ td {
     text-align: left;
 }
 
-.col1 {
-    width: 10vw;
+.progress-container {
+    background-color: rgb(124, 163, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    max-width: 500px;
 }
 
-.col2 {
-    width: 25vw;
+.progress-bar {
+    height: 30px;
+    background-color: #3b2565;
+    width: 0px;
+    border-radius: 10px;
 }
 
-.col3 {
-    width: 10vw;
-}
-
-.emptybox {
-    border: 0px
+summary {
+    display: inline-block;
 }

@@ -7,11 +7,12 @@
 
     <link rel="stylesheet" href="styles.css">
     <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
     <nav>
-        <div class="boxed2">
+        <div class="boxed-nav">
             <a class="toplink" href="index.html">Home</a>
             <a class="toplink" href="profile.html">Profiel</a>
             <a class="selected" href="dashboard.html">Dashboard</a>
@@ -22,7 +23,7 @@
     <h1>Dashboard</h1>
     <main>
         <article>
-            <div class="boxed1">
+            <div class="boxed-article">
                 <table>
                     <tr>
                         <th class="col1">Kwartaal</th>
@@ -33,29 +34,29 @@
                     </tr>
                     <tr>
                         <td rowspan="3">1 (12.5EC)</td>
-                        <td class="col2">PCO (2.5EC)</td>
-                        <td class="col3">CU75001V3</td>
+                        <td>PCO (2.5EC)</td>
+                        <td>CU75001V3</td>
                         <td>Website + Presentation</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>CSB (5EC)</td>
                         <td>CU75002V2</td>
                         <td>Exam</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>PB (5EC)</td>
                         <td>CU75003V1</td>
                         <td>Case study exam</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td rowspan="2">2 (5EC)</td>
                         <td rowspawn="2">OOP (5EC)</td>
                         <td>CU75004V1</td>
                         <td>Group assignment + Case study</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                     </tr>
@@ -64,7 +65,7 @@
                         <td rowspan="4">Framework 1 (10EC)</td>
                         <td>CU75080V1</td>
                         <td>Group assignment + Group presentation + Case study + Exam</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                     </tr>
@@ -77,7 +78,7 @@
                         <td rowspan="3">Framework 2 (10EC)</td>
                         <td>CU75011V3</td>
                         <td>Portfolio + Final delivery + Assesment</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                     </tr>
@@ -88,40 +89,53 @@
                         <td>Business IT concultancy basics (2.5EC)</td>
                         <td>CU75081V1</td>
                         <td>Video</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>PPDE (12.5EC)</td>
                         <td>CU75068V3</td>
                         <td>Interview</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>Project week (1.25EC)</td>
                         <td>CU75054V1</td>
                         <td>Portfolio</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>International week (1.25EC)</td>
                         <td>CU75055V1</td>
                         <td>Portfolio</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>Personality 1 (1.25EC)</td>
                         <td>CU75056V1</td>
                         <td>Portfolio</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                     <tr>
                         <td>Personality 2 (1.25EC)</td>
                         <td>CU75057V1</td>
                         <td>Portfolio</td>
-                        <td></td>
+                        <td contenteditable="true"></td>
                     </tr>
                 </table>
             </div>
+            <br>
+            <br>
+            <div class="boxed-fullscreen">
+                <p>De progressiebalk hieronder laat de progressie zien van het jaar. Deze beweegt zodra je cijfers
+                    invult bij "grades".
+                    <br>(Lukte niet om de progressiebalk dynamisch te maken)
+                </p>
+                <br>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 50%"></div>
+                </div>
+                <br>
+                <br>
         </article>
     </main>
 </body>
