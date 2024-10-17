@@ -104,7 +104,7 @@ td {
     text-align: left;
 }
 
-.progress-container {
+.progress-box {
     background-color: rgb(124, 163, 255);
     border-radius: 10px;
     padding: 5px;
@@ -117,6 +117,14 @@ td {
     background-color: #3b2565;
     width: 0px;
     border-radius: 10px;
+}
+
+.backbutton-box {
+    background-color: rgb(167, 195, 255);
+    padding: 10px;
+    width: 98%;
+    border-radius: 5px;
+    text-align: center;
 }
 
 summary {
